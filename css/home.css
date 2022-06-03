@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+body {
+    font-family:   "Kaushan Script",  cursive ;  /*The Font Family */
+   background: #f7f8f9;
+   color: black;
+ }
+
+ .btn-st{
+    background-color: #478eb8;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    width: 100px
+}
+.text-reset{
+    border: #478eb8 2px solid;
+    border-radius: 10px;
+    background-color: #478eb8;
+}
+.fa-shopping-cart{
+    padding: 10px;
+    color: #fff;
+}
+.navbar{
+     background-color:/*rgba(249, 228, 148,0.6); */ #D7DBDD;
+}
+.navbar-brand img{
+    width: 50px;
+font-size: 2.2rem;
+}
+
+.nav-item-st{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #478eb8;
+}
+.nav-item-st li a{
+    margin-left: .9rem;
+    margin-right: .9rem;
+    opacity: 1;
+    color: #478eb8;
+    transition: all 0.5s ease-in-out;
+}
+.nav-item-st li a:hover{
+    color: #000;
+    font-size: 20px;
+}
+
+/* banner */
+
+
+  .banner {
+    color: #f7f7e8;
+    margin-top: -4rem;
+  }
+  .banner-title {
+    color: #478eb8;
+    font-size: 4rem;
+  }
+  .banner-link {
+    font-size: 1.5rem;
+    color: #000;
+    border: 0.2rem solid black;
+  }
+  .banner-link:hover {
+    background: #000;
+    color: #478eb8;
+  }
+  /* endo of banner */
+
+  .about-img__container {
+    position: relative;
+  }
+  
+  .about-img__container::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    left: -1.7rem;
+    width: 100%;
+    height: 100%;
+    outline: 0.5rem solid #478eb8;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+  }
+  .about-img__container:hover:before {
+    top: 0;
+    left: 0;
+  }
+  
+  /*end of  about */
+
+
+.carousel-item img{
+    max-height: 750px;
+}
+
+
+.card-st{
+    background-color: #D7DBDD;
+}
+.header-title{
+    color: #000;
+    font-size: 4rem;
+}
+.header-st{
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+.card-body-st{
+    background-color: #478eb8;
+    justify-content: center;
+}
+
+/* .card-item-st{
+    
+} */
+.btns-st button{
+    width: 120px;
+    color: #c3c5bf;
+    background-color: #557174;
+}
+
+.page-switch-st li a{
+    margin: 10px;
+    border: 1px solid #F7F7E8;
+    border-radius: 15px;
+    background-color: #557174;
+    border-bottom: 0px;
+    padding: .9rem;
+    color: #F7F7E8;
+    transition: all .3s ease 0s;
+}
+.page-switch-st li a:hover{
+    color: #c3c5bf;
+    font-size: 20px;
+}
+.page-switch-st li a:active{
+    color: #c3c5bf;
+    font-size: 25px;
+}

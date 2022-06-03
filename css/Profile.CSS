@@ -1,0 +1,14 @@
+body {
+    background-image:url('../home-img/2.jpg') ;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+.labels {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
