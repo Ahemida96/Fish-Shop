@@ -11,8 +11,6 @@ This repository contains the source code for the **Seafood Shop Website** – a 
 - [Database Setup](#database-setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
@@ -70,3 +68,52 @@ The fish-shop.sql file includes the necessary SQL commands to create and populat
 ```bash
 mysql -u your_username -p your_database < fish-shop.sql
 ```
+
+## File Structure
+Below is a brief overview of the repository structure:
+
+- componants-home/
+Contains reusable components for the homepage.
+
+- control-panel/
+Contains files related to the admin control panel.
+
+- css/
+Stylesheets used throughout the website.
+
+- home-img/
+Images used on the homepage and other site areas.
+
+- js/
+JavaScript files for interactive elements.
+
+- users/
+Contains user-related files and modules.
+
+- bootstrap-linker.php
+PHP file to include and manage Bootstrap resources.
+
+- connection.php
+Database connection settings.
+
+- fish-shop.sql
+SQL script to set up the MySQL database schema.
+
+- index.php
+The main entry point of the website.
+
+- menu.php
+Contains the navigation menu code.
+
+- tempCodeRunnerFile.php
+Temporary file that can be used for testing or development purposes.
+
+## Usage
+After installing and configuring the project, open your web browser and navigate to your local server (e.g., http://localhost/Fish-Shop). The homepage should load, and you can navigate through the site as a visitor. For administrative functions, use the control panel (ensure you have proper authentication set up).
+
+## Contributing
+Contributions are welcome! If you have suggestions, bug fixes, or enhancements, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes and push to your fork.
+4. Open a pull request with a detailed description of your changes.
